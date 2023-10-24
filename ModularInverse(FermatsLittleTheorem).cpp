@@ -18,7 +18,7 @@ int main(){
 
     int a,b,m;cin>>a>>b>>m;
     /*
-    Fermat’s little theorem
+    Fermatâ€™s little theorem
     (x^m-1)%m=1
     (x^m-2)=(x^-1)
     (b^-1)%m=(b^(m-2))%m
