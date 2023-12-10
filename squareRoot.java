@@ -5,7 +5,7 @@ public class squareRoot{
 	static double sqrt(int n,int p){
 		double root=n;
 		double increment=1.0/Math.pow(10,p);
-    //fastest
+    //fastest(newton raphson method)
 		while(Math.abs(root*root-n)>increment){
 			root=(root+n/root)/2.0;
 			System.out.println(root);
